@@ -1,0 +1,1246 @@
+{
+    "recipes": [
+        {
+            "name": "effectivity-module-2",
+            "ingredients": [
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "processing-unit",
+                    "qty": 5
+                },
+                {
+                    "name": "effectivity-module",
+                    "qty": 4
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Effectivity_module_2.png"
+        },
+        {
+            "name": "sulfur",
+            "ingredients": [
+                {
+                    "name": "water",
+                    "qty": 30
+                },
+                {
+                    "name": "petroleum-gas",
+                    "qty": 30
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Sulfur.png"
+        },
+        {
+            "name": "pipe",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Pipe.png"
+        },
+        {
+            "name": "explosive-cannon-shell",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "plastic-bar",
+                    "qty": 2
+                },
+                {
+                    "name": "explosives",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Explosive_cannon_shell.png"
+        },
+        {
+            "name": "electronic-circuit",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "copper-cable",
+                    "qty": 3
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Electronic_circuit.png"
+        },
+        {
+            "name": "roboport",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 45
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 45
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 45
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Roboport.png"
+        },
+        {
+            "name": "battery",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "copper-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "sulfuric-acid",
+                    "qty": 20
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Battery.png"
+        },
+        {
+            "name": "repair-pack",
+            "ingredients": [
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 2
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Repair_pack.png"
+        },
+        {
+            "name": "cannon-shell",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "plastic-bar",
+                    "qty": 2
+                },
+                {
+                    "name": "explosives",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Cannon_shell.png"
+        },
+        {
+            "name": "iron-gear-wheel",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Iron_gear_wheel.png"
+        },
+        {
+            "name": "copper-plate",
+            "ingredients": [
+                {
+                    "name": "copper-ore",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Copper_plate.png"
+        },
+        {
+            "name": "grenade",
+            "ingredients": [
+                {
+                    "name": "coal",
+                    "qty": 10
+                },
+                {
+                    "name": "iron-plate",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Grenade.png"
+        },
+        {
+            "name": "train-stop",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 6
+                },
+                {
+                    "name": "steel-plate",
+                    "qty": 3
+                },
+                {
+                    "name": "iron-stick",
+                    "qty": 6
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Train_stop.png"
+        },
+        {
+            "name": "concrete",
+            "ingredients": [
+                {
+                    "name": "iron-ore",
+                    "qty": 1
+                },
+                {
+                    "name": "stone-brick",
+                    "qty": 5
+                },
+                {
+                    "name": "water",
+                    "qty": 100
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Concrete.png"
+        },
+        {
+            "name": "fusion-reactor-equipment",
+            "ingredients": [
+                {
+                    "name": "processing-unit",
+                    "qty": 200
+                },
+                {
+                    "name": "low-density-structure",
+                    "qty": 50
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Fusion_reactor_equipment.png"
+        },
+        {
+            "name": "underground-belt",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 10
+                },
+                {
+                    "name": "transport-belt",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Underground_belt.png"
+        },
+        {
+            "name": "shotgun-shell",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "copper-plate",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Shotgun_shell.png"
+        },
+        {
+            "name": "red-wire",
+            "ingredients": [
+                {
+                    "name": "copper-cable",
+                    "qty": 1
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Red_wire.png"
+        },
+        {
+            "name": "solar-panel",
+            "ingredients": [
+                {
+                    "name": "copper-plate",
+                    "qty": 5
+                },
+                {
+                    "name": "steel-plate",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 15
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Solar_panel.png"
+        },
+        {
+            "name": "productivity-module",
+            "ingredients": [
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Productivity_module.png"
+        },
+        {
+            "name": "rail",
+            "ingredients": [
+                {
+                    "name": "stone",
+                    "qty": 1
+                },
+                {
+                    "name": "steel-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "iron-stick",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Rail.png"
+        },
+        {
+            "name": "low-density-structure",
+            "ingredients": [
+                {
+                    "name": "copper-plate",
+                    "qty": 20
+                },
+                {
+                    "name": "steel-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "plastic-bar",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Low_density_structure.png"
+        },
+        {
+            "name": "green-wire",
+            "ingredients": [
+                {
+                    "name": "copper-cable",
+                    "qty": 1
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Green_wire.png"
+        },
+        {
+            "name": "fast-splitter",
+            "ingredients": [
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 10
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 10
+                },
+                {
+                    "name": "splitter",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Fast_splitter.png"
+        },
+        {
+            "name": "inserter",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 1
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Inserter.png"
+        },
+        {
+            "name": "refined-concrete",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "iron-stick",
+                    "qty": 8
+                },
+                {
+                    "name": "concrete",
+                    "qty": 20
+                },
+                {
+                    "name": "water",
+                    "qty": 100
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Refined_concrete.png"
+        },
+        {
+            "name": "stone-brick",
+            "ingredients": [
+                {
+                    "name": "stone",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Stone_brick.png"
+        },
+        {
+            "name": "processing-unit",
+            "ingredients": [
+                {
+                    "name": "electronic-circuit",
+                    "qty": 20
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 2
+                },
+                {
+                    "name": "sulfuric-acid",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Processing_unit.png"
+        },
+        {
+            "name": "fast-underground-belt",
+            "ingredients": [
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 40
+                },
+                {
+                    "name": "underground-belt",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Fast_underground_belt.png"
+        },
+        {
+            "name": "empty-barrel",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Empty_barrel.png"
+        },
+        {
+            "name": "copper-cable",
+            "ingredients": [
+                {
+                    "name": "copper-plate",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Copper_cable.png"
+        },
+        {
+            "name": "assembling-machine-2",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 3
+                },
+                {
+                    "name": "assembling-machine-1",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Assembling_machine_2.png"
+        },
+        {
+            "name": "piercing-rounds-magazine",
+            "ingredients": [
+                {
+                    "name": "copper-plate",
+                    "qty": 5
+                },
+                {
+                    "name": "steel-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "firearm-magazine",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Piercing_rounds_magazine.png"
+        },
+        {
+            "name": "advanced-circuit",
+            "ingredients": [
+                {
+                    "name": "plastic-bar",
+                    "qty": 2
+                },
+                {
+                    "name": "copper-cable",
+                    "qty": 4
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Advanced_circuit.png"
+        },
+        {
+            "name": "firearm-magazine",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 4
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Firearm_magazine.png"
+        },
+        {
+            "name": "iron-stick",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Iron_stick.png"
+        },
+        {
+            "name": "storage-tank",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 20
+                },
+                {
+                    "name": "steel-plate",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Storage_tank.png"
+        },
+        {
+            "name": "rocket-launcher",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 5
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Rocket_launcher.png"
+        },
+        {
+            "name": "transport-belt",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Transport_belt.png"
+        },
+        {
+            "name": "fast-loader",
+            "ingredients": [
+                {
+                    "name": "fast-transport-belt",
+                    "qty": 5
+                },
+                {
+                    "name": "loader",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Fast_loader.png"
+        },
+        {
+            "name": "sulfuric-acid",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "sulfur",
+                    "qty": 5
+                },
+                {
+                    "name": "water",
+                    "qty": 100
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Sulfuric_acid.png"
+        },
+        {
+            "name": "rocket-control-unit",
+            "ingredients": [
+                {
+                    "name": "processing-unit",
+                    "qty": 1
+                },
+                {
+                    "name": "speed-module",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Rocket_control_unit.png"
+        },
+        {
+            "name": "lubricant",
+            "ingredients": [
+                {
+                    "name": "heavy-oil",
+                    "qty": 10
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Lubricant.png"
+        },
+        {
+            "name": "personal-roboport-equipment",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 20
+                },
+                {
+                    "name": "battery",
+                    "qty": 45
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 40
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 10
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Personal_roboport_equipment.png"
+        },
+        {
+            "name": "stone-wall",
+            "ingredients": [
+                {
+                    "name": "stone-brick",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Stone_wall.png"
+        },
+        {
+            "name": "splitter",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "transport-belt",
+                    "qty": 4
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Splitter.png"
+        },
+        {
+            "name": "assembling-machine-1",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 9
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 3
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Assembling_machine_1.png"
+        },
+        {
+            "name": "energy-shield-equipment",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 10
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Energy_shield_equipment.png"
+        },
+        {
+            "name": "electric-furnace",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 10
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "stone-brick",
+                    "qty": 10
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Electric_furnace.png"
+        },
+        {
+            "name": "rocket",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "explosives",
+                    "qty": 1
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Rocket.png"
+        },
+        {
+            "name": "fast-inserter",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 2
+                },
+                {
+                    "name": "inserter",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Fast_inserter.png"
+        },
+        {
+            "name": "effectivity-module-3",
+            "ingredients": [
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "processing-unit",
+                    "qty": 5
+                },
+                {
+                    "name": "effectivity-module-2",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Effectivity_module_3.png"
+        },
+        {
+            "name": "speed-module-2",
+            "ingredients": [
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "processing-unit",
+                    "qty": 5
+                },
+                {
+                    "name": "speed-module",
+                    "qty": 4
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Speed_module_2.png"
+        },
+        {
+            "name": "fast-transport-belt",
+            "ingredients": [
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 5
+                },
+                {
+                    "name": "transport-belt",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Fast_transport_belt.png"
+        },
+        {
+            "name": "steel-plate",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Steel_plate.png"
+        },
+        {
+            "name": "rocket-fuel",
+            "ingredients": [
+                {
+                    "name": "solid-fuel",
+                    "qty": 10
+                },
+                {
+                    "name": "light-oil",
+                    "qty": 10
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Rocket_fuel.png"
+        },
+        {
+            "name": "engine-unit",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 1
+                },
+                {
+                    "name": "pipe",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Engine_unit.png"
+        },
+        {
+            "name": "effectivity-module",
+            "ingredients": [
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Effectivity_module.png"
+        },
+        {
+            "name": "explosives",
+            "ingredients": [
+                {
+                    "name": "coal",
+                    "qty": 1
+                },
+                {
+                    "name": "sulfur",
+                    "qty": 1
+                },
+                {
+                    "name": "water",
+                    "qty": 10
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Explosives.png"
+        },
+        {
+            "name": "speed-module",
+            "ingredients": [
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Speed_module.png"
+        },
+        {
+            "name": "defender-capsule",
+            "ingredients": [
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 3
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 3
+                },
+                {
+                    "name": "piercing-rounds-magazine",
+                    "qty": 3
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Defender_capsule.png"
+        },
+        {
+            "name": "iron-plate",
+            "ingredients": [
+                {
+                    "name": "iron-ore",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Iron_plate.png"
+        },
+        {
+            "name": "stone-furnace",
+            "ingredients": [
+                {
+                    "name": "stone",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Stone_furnace.png"
+        },
+        {
+            "name": "plastic-bar",
+            "ingredients": [
+                {
+                    "name": "coal",
+                    "qty": 1
+                },
+                {
+                    "name": "petroleum-gas",
+                    "qty": 20
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Plastic_bar.png"
+        },
+        {
+            "name": "express-transport-belt",
+            "ingredients": [
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 10
+                },
+                {
+                    "name": "fast-transport-belt",
+                    "qty": 1
+                },
+                {
+                    "name": "lubricant",
+                    "qty": 20
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Express_transport_belt.png"
+        },
+        {
+            "name": "radar",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 10
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Radar.png"
+        },
+        {
+            "name": "constant-combinator",
+            "ingredients": [
+                {
+                    "name": "copper-cable",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 2
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Constant_combinator.png"
+        },
+        {
+            "name": "loader",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 5
+                },
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 5
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "transport-belt",
+                    "qty": 5
+                },
+                {
+                    "name": "inserter",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Loader.png"
+        },
+        {
+            "name": "electric-engine-unit",
+            "ingredients": [
+                {
+                    "name": "electronic-circuit",
+                    "qty": 2
+                },
+                {
+                    "name": "engine-unit",
+                    "qty": 1
+                },
+                {
+                    "name": "lubricant",
+                    "qty": 15
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Electric_engine_unit.png"
+        },
+        {
+            "name": "accumulator",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 2
+                },
+                {
+                    "name": "battery",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Accumulator.png"
+        },
+        {
+            "name": "productivity-module-2",
+            "ingredients": [
+                {
+                    "name": "advanced-circuit",
+                    "qty": 5
+                },
+                {
+                    "name": "processing-unit",
+                    "qty": 5
+                },
+                {
+                    "name": "productivity-module",
+                    "qty": 4
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Productivity_module_2.png"
+        },
+        {
+            "name": "stack-inserter",
+            "ingredients": [
+                {
+                    "name": "iron-gear-wheel",
+                    "qty": 15
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 15
+                },
+                {
+                    "name": "advanced-circuit",
+                    "qty": 1
+                },
+                {
+                    "name": "fast-inserter",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Stack_inserter.png"
+        },
+        {
+            "name": "exoskeleton-equipment",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 20
+                },
+                {
+                    "name": "processing-unit",
+                    "qty": 10
+                },
+                {
+                    "name": "electric-engine-unit",
+                    "qty": 30
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Exoskeleton_equipment.png"
+        },
+        {
+            "name": "steel-chest",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 8
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Steel_chest.png"
+        },
+        {
+            "name": "distractor-capsule",
+            "ingredients": [
+                {
+                    "name": "advanced-circuit",
+                    "qty": 3
+                },
+                {
+                    "name": "defender-capsule",
+                    "qty": 4
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Distractor_capsule.png"
+        },
+        {
+            "name": "flying-robot-frame",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "battery",
+                    "qty": 2
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 3
+                },
+                {
+                    "name": "electric-engine-unit",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Flying_robot_frame.png"
+        },
+        {
+            "name": "small-lamp",
+            "ingredients": [
+                {
+                    "name": "iron-plate",
+                    "qty": 1
+                },
+                {
+                    "name": "copper-cable",
+                    "qty": 3
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 1
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Small_lamp.png"
+        },
+        {
+            "name": "battery-equipment",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 10
+                },
+                {
+                    "name": "battery",
+                    "qty": 5
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Battery_equipment.png"
+        },
+        {
+            "name": "laser-turret",
+            "ingredients": [
+                {
+                    "name": "steel-plate",
+                    "qty": 20
+                },
+                {
+                    "name": "battery",
+                    "qty": 12
+                },
+                {
+                    "name": "electronic-circuit",
+                    "qty": 20
+                }
+            ],
+            "image": "https://wiki.factorio.com/images/Laser_turret.png"
+        }
+    ]
+}

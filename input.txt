@@ -1,0 +1,316 @@
+<div class='item'>
+	<label for='effectivity-module-2'>Effectivity Module 2</label>
+	<input type='checkbox' id='effectivity-module-2'><img class='item' src='https://wiki.factorio.com/images/Effectivity_module_2.png' id='effectivity-module-2'>
+</div>
+<div class='item'>
+	<label for='sulfur'>Sulfur</label>
+	<input type='checkbox' id='sulfur'><img class='item' src='https://wiki.factorio.com/images/Sulfur.png' id='sulfur'>
+</div>
+<div class='item'>
+	<label for='pipe'>Pipe</label>
+	<input type='checkbox' id='pipe'><img class='item' src='https://wiki.factorio.com/images/Pipe.png' id='pipe'>
+</div>
+<div class='item'>
+	<label for='explosive-cannon-shell'>Explosive Cannon Shell</label>
+	<input type='checkbox' id='explosive-cannon-shell'><img class='item' src='https://wiki.factorio.com/images/Explosive_cannon_shell.png' id='explosive-cannon-shell'>
+</div>
+<div class='item'>
+	<label for='electronic-circuit'>Electronic Circuit</label>
+	<input type='checkbox' id='electronic-circuit'><img class='item' src='https://wiki.factorio.com/images/Electronic_circuit.png' id='electronic-circuit'>
+</div>
+<div class='item'>
+	<label for='roboport'>Roboport</label>
+	<input type='checkbox' id='roboport'><img class='item' src='https://wiki.factorio.com/images/Roboport.png' id='roboport'>
+</div>
+<div class='item'>
+	<label for='battery'>Battery</label>
+	<input type='checkbox' id='battery'><img class='item' src='https://wiki.factorio.com/images/Battery.png' id='battery'>
+</div>
+<div class='item'>
+	<label for='repair-pack'>Repair Pack</label>
+	<input type='checkbox' id='repair-pack'><img class='item' src='https://wiki.factorio.com/images/Repair_pack.png' id='repair-pack'>
+</div>
+<div class='item'>
+	<label for='cannon-shell'>Cannon Shell</label>
+	<input type='checkbox' id='cannon-shell'><img class='item' src='https://wiki.factorio.com/images/Cannon_shell.png' id='cannon-shell'>
+</div>
+<div class='item'>
+	<label for='iron-gear-wheel'>Iron Gear Wheel</label>
+	<input type='checkbox' id='iron-gear-wheel'><img class='item' src='https://wiki.factorio.com/images/Iron_gear_wheel.png' id='iron-gear-wheel'>
+</div>
+<div class='item'>
+	<label for='copper-plate'>Copper Plate</label>
+	<input type='checkbox' id='copper-plate'><img class='item' src='https://wiki.factorio.com/images/Copper_plate.png' id='copper-plate'>
+</div>
+<div class='item'>
+	<label for='grenade'>Grenade</label>
+	<input type='checkbox' id='grenade'><img class='item' src='https://wiki.factorio.com/images/Grenade.png' id='grenade'>
+</div>
+<div class='item'>
+	<label for='train-stop'>Train Stop</label>
+	<input type='checkbox' id='train-stop'><img class='item' src='https://wiki.factorio.com/images/Train_stop.png' id='train-stop'>
+</div>
+<div class='item'>
+	<label for='concrete'>Concrete</label>
+	<input type='checkbox' id='concrete'><img class='item' src='https://wiki.factorio.com/images/Concrete.png' id='concrete'>
+</div>
+<div class='item'>
+	<label for='fusion-reactor-equipment'>Fusion Reactor Equipment</label>
+	<input type='checkbox' id='fusion-reactor-equipment'><img class='item' src='https://wiki.factorio.com/images/Fusion_reactor_equipment.png' id='fusion-reactor-equipment'>
+</div>
+<div class='item'>
+	<label for='underground-belt'>Underground Belt</label>
+	<input type='checkbox' id='underground-belt'><img class='item' src='https://wiki.factorio.com/images/Underground_belt.png' id='underground-belt'>
+</div>
+<div class='item'>
+	<label for='shotgun-shell'>Shotgun Shell</label>
+	<input type='checkbox' id='shotgun-shell'><img class='item' src='https://wiki.factorio.com/images/Shotgun_shell.png' id='shotgun-shell'>
+</div>
+<div class='item'>
+	<label for='red-wire'>Red Wire</label>
+	<input type='checkbox' id='red-wire'><img class='item' src='https://wiki.factorio.com/images/Red_wire.png' id='red-wire'>
+</div>
+<div class='item'>
+	<label for='solar-panel'>Solar Panel</label>
+	<input type='checkbox' id='solar-panel'><img class='item' src='https://wiki.factorio.com/images/Solar_panel.png' id='solar-panel'>
+</div>
+<div class='item'>
+	<label for='productivity-module'>Productivity Module</label>
+	<input type='checkbox' id='productivity-module'><img class='item' src='https://wiki.factorio.com/images/Productivity_module.png' id='productivity-module'>
+</div>
+<div class='item'>
+	<label for='rail'>Rail</label>
+	<input type='checkbox' id='rail'><img class='item' src='https://wiki.factorio.com/images/Rail.png' id='rail'>
+</div>
+<div class='item'>
+	<label for='low-density-structure'>Low Density Structure</label>
+	<input type='checkbox' id='low-density-structure'><img class='item' src='https://wiki.factorio.com/images/Low_density_structure.png' id='low-density-structure'>
+</div>
+<div class='item'>
+	<label for='green-wire'>Green Wire</label>
+	<input type='checkbox' id='green-wire'><img class='item' src='https://wiki.factorio.com/images/Green_wire.png' id='green-wire'>
+</div>
+<div class='item'>
+	<label for='fast-splitter'>Fast Splitter</label>
+	<input type='checkbox' id='fast-splitter'><img class='item' src='https://wiki.factorio.com/images/Fast_splitter.png' id='fast-splitter'>
+</div>
+<div class='item'>
+	<label for='inserter'>Inserter</label>
+	<input type='checkbox' id='inserter'><img class='item' src='https://wiki.factorio.com/images/Inserter.png' id='inserter'>
+</div>
+<div class='item'>
+	<label for='refined-concrete'>Refined Concrete</label>
+	<input type='checkbox' id='refined-concrete'><img class='item' src='https://wiki.factorio.com/images/Refined_concrete.png' id='refined-concrete'>
+</div>
+<div class='item'>
+	<label for='stone-brick'>Stone Brick</label>
+	<input type='checkbox' id='stone-brick'><img class='item' src='https://wiki.factorio.com/images/Stone_brick.png' id='stone-brick'>
+</div>
+<div class='item'>
+	<label for='processing-unit'>Processing Unit</label>
+	<input type='checkbox' id='processing-unit'><img class='item' src='https://wiki.factorio.com/images/Processing_unit.png' id='processing-unit'>
+</div>
+<div class='item'>
+	<label for='fast-underground-belt'>Fast Underground Belt</label>
+	<input type='checkbox' id='fast-underground-belt'><img class='item' src='https://wiki.factorio.com/images/Fast_underground_belt.png' id='fast-underground-belt'>
+</div>
+<div class='item'>
+	<label for='empty-barrel'>Empty Barrel</label>
+	<input type='checkbox' id='empty-barrel'><img class='item' src='https://wiki.factorio.com/images/Empty_barrel.png' id='empty-barrel'>
+</div>
+<div class='item'>
+	<label for='copper-cable'>Copper Cable</label>
+	<input type='checkbox' id='copper-cable'><img class='item' src='https://wiki.factorio.com/images/Copper_cable.png' id='copper-cable'>
+</div>
+<div class='item'>
+	<label for='assembling-machine-2'>Assembling Machine 2</label>
+	<input type='checkbox' id='assembling-machine-2'><img class='item' src='https://wiki.factorio.com/images/Assembling_machine_2.png' id='assembling-machine-2'>
+</div>
+<div class='item'>
+	<label for='piercing-rounds-magazine'>Piercing Rounds Magazine</label>
+	<input type='checkbox' id='piercing-rounds-magazine'><img class='item' src='https://wiki.factorio.com/images/Piercing_rounds_magazine.png' id='piercing-rounds-magazine'>
+</div>
+<div class='item'>
+	<label for='advanced-circuit'>Advanced Circuit</label>
+	<input type='checkbox' id='advanced-circuit'><img class='item' src='https://wiki.factorio.com/images/Advanced_circuit.png' id='advanced-circuit'>
+</div>
+<div class='item'>
+	<label for='firearm-magazine'>Firearm Magazine</label>
+	<input type='checkbox' id='firearm-magazine'><img class='item' src='https://wiki.factorio.com/images/Firearm_magazine.png' id='firearm-magazine'>
+</div>
+<div class='item'>
+	<label for='iron-stick'>Iron Stick</label>
+	<input type='checkbox' id='iron-stick'><img class='item' src='https://wiki.factorio.com/images/Iron_stick.png' id='iron-stick'>
+</div>
+<div class='item'>
+	<label for='storage-tank'>Storage Tank</label>
+	<input type='checkbox' id='storage-tank'><img class='item' src='https://wiki.factorio.com/images/Storage_tank.png' id='storage-tank'>
+</div>
+<div class='item'>
+	<label for='rocket-launcher'>Rocket Launcher</label>
+	<input type='checkbox' id='rocket-launcher'><img class='item' src='https://wiki.factorio.com/images/Rocket_launcher.png' id='rocket-launcher'>
+</div>
+<div class='item'>
+	<label for='transport-belt'>Transport Belt</label>
+	<input type='checkbox' id='transport-belt'><img class='item' src='https://wiki.factorio.com/images/Transport_belt.png' id='transport-belt'>
+</div>
+<div class='item'>
+	<label for='fast-loader'>Fast Loader</label>
+	<input type='checkbox' id='fast-loader'><img class='item' src='https://wiki.factorio.com/images/Fast_loader.png' id='fast-loader'>
+</div>
+<div class='item'>
+	<label for='sulfuric-acid'>Sulfuric Acid</label>
+	<input type='checkbox' id='sulfuric-acid'><img class='item' src='https://wiki.factorio.com/images/Sulfuric_acid.png' id='sulfuric-acid'>
+</div>
+<div class='item'>
+	<label for='rocket-control-unit'>Rocket Control Unit</label>
+	<input type='checkbox' id='rocket-control-unit'><img class='item' src='https://wiki.factorio.com/images/Rocket_control_unit.png' id='rocket-control-unit'>
+</div>
+<div class='item'>
+	<label for='lubricant'>Lubricant</label>
+	<input type='checkbox' id='lubricant'><img class='item' src='https://wiki.factorio.com/images/Lubricant.png' id='lubricant'>
+</div>
+<div class='item'>
+	<label for='personal-roboport-equipment'>Personal Roboport Equipment</label>
+	<input type='checkbox' id='personal-roboport-equipment'><img class='item' src='https://wiki.factorio.com/images/Personal_roboport_equipment.png' id='personal-roboport-equipment'>
+</div>
+<div class='item'>
+	<label for='stone-wall'>Stone Wall</label>
+	<input type='checkbox' id='stone-wall'><img class='item' src='https://wiki.factorio.com/images/Stone_wall.png' id='stone-wall'>
+</div>
+<div class='item'>
+	<label for='splitter'>Splitter</label>
+	<input type='checkbox' id='splitter'><img class='item' src='https://wiki.factorio.com/images/Splitter.png' id='splitter'>
+</div>
+<div class='item'>
+	<label for='assembling-machine-1'>Assembling Machine 1</label>
+	<input type='checkbox' id='assembling-machine-1'><img class='item' src='https://wiki.factorio.com/images/Assembling_machine_1.png' id='assembling-machine-1'>
+</div>
+<div class='item'>
+	<label for='energy-shield-equipment'>Energy Shield Equipment</label>
+	<input type='checkbox' id='energy-shield-equipment'><img class='item' src='https://wiki.factorio.com/images/Energy_shield_equipment.png' id='energy-shield-equipment'>
+</div>
+<div class='item'>
+	<label for='electric-furnace'>Electric Furnace</label>
+	<input type='checkbox' id='electric-furnace'><img class='item' src='https://wiki.factorio.com/images/Electric_furnace.png' id='electric-furnace'>
+</div>
+<div class='item'>
+	<label for='rocket'>Rocket</label>
+	<input type='checkbox' id='rocket'><img class='item' src='https://wiki.factorio.com/images/Rocket.png' id='rocket'>
+</div>
+<div class='item'>
+	<label for='fast-inserter'>Fast Inserter</label>
+	<input type='checkbox' id='fast-inserter'><img class='item' src='https://wiki.factorio.com/images/Fast_inserter.png' id='fast-inserter'>
+</div>
+<div class='item'>
+	<label for='effectivity-module-3'>Effectivity Module 3</label>
+	<input type='checkbox' id='effectivity-module-3'><img class='item' src='https://wiki.factorio.com/images/Effectivity_module_3.png' id='effectivity-module-3'>
+</div>
+<div class='item'>
+	<label for='speed-module-2'>Speed Module 2</label>
+	<input type='checkbox' id='speed-module-2'><img class='item' src='https://wiki.factorio.com/images/Speed_module_2.png' id='speed-module-2'>
+</div>
+<div class='item'>
+	<label for='fast-transport-belt'>Fast Transport Belt</label>
+	<input type='checkbox' id='fast-transport-belt'><img class='item' src='https://wiki.factorio.com/images/Fast_transport_belt.png' id='fast-transport-belt'>
+</div>
+<div class='item'>
+	<label for='steel-plate'>Steel Plate</label>
+	<input type='checkbox' id='steel-plate'><img class='item' src='https://wiki.factorio.com/images/Steel_plate.png' id='steel-plate'>
+</div>
+<div class='item'>
+	<label for='rocket-fuel'>Rocket Fuel</label>
+	<input type='checkbox' id='rocket-fuel'><img class='item' src='https://wiki.factorio.com/images/Rocket_fuel.png' id='rocket-fuel'>
+</div>
+<div class='item'>
+	<label for='engine-unit'>Engine Unit</label>
+	<input type='checkbox' id='engine-unit'><img class='item' src='https://wiki.factorio.com/images/Engine_unit.png' id='engine-unit'>
+</div>
+<div class='item'>
+	<label for='effectivity-module'>Effectivity Module</label>
+	<input type='checkbox' id='effectivity-module'><img class='item' src='https://wiki.factorio.com/images/Effectivity_module.png' id='effectivity-module'>
+</div>
+<div class='item'>
+	<label for='explosives'>Explosives</label>
+	<input type='checkbox' id='explosives'><img class='item' src='https://wiki.factorio.com/images/Explosives.png' id='explosives'>
+</div>
+<div class='item'>
+	<label for='speed-module'>Speed Module</label>
+	<input type='checkbox' id='speed-module'><img class='item' src='https://wiki.factorio.com/images/Speed_module.png' id='speed-module'>
+</div>
+<div class='item'>
+	<label for='defender-capsule'>Defender Capsule</label>
+	<input type='checkbox' id='defender-capsule'><img class='item' src='https://wiki.factorio.com/images/Defender_capsule.png' id='defender-capsule'>
+</div>
+<div class='item'>
+	<label for='iron-plate'>Iron Plate</label>
+	<input type='checkbox' id='iron-plate'><img class='item' src='https://wiki.factorio.com/images/Iron_plate.png' id='iron-plate'>
+</div>
+<div class='item'>
+	<label for='stone-furnace'>Stone Furnace</label>
+	<input type='checkbox' id='stone-furnace'><img class='item' src='https://wiki.factorio.com/images/Stone_furnace.png' id='stone-furnace'>
+</div>
+<div class='item'>
+	<label for='plastic-bar'>Plastic Bar</label>
+	<input type='checkbox' id='plastic-bar'><img class='item' src='https://wiki.factorio.com/images/Plastic_bar.png' id='plastic-bar'>
+</div>
+<div class='item'>
+	<label for='express-transport-belt'>Express Transport Belt</label>
+	<input type='checkbox' id='express-transport-belt'><img class='item' src='https://wiki.factorio.com/images/Express_transport_belt.png' id='express-transport-belt'>
+</div>
+<div class='item'>
+	<label for='radar'>Radar</label>
+	<input type='checkbox' id='radar'><img class='item' src='https://wiki.factorio.com/images/Radar.png' id='radar'>
+</div>
+<div class='item'>
+	<label for='constant-combinator'>Constant Combinator</label>
+	<input type='checkbox' id='constant-combinator'><img class='item' src='https://wiki.factorio.com/images/Constant_combinator.png' id='constant-combinator'>
+</div>
+<div class='item'>
+	<label for='loader'>Loader</label>
+	<input type='checkbox' id='loader'><img class='item' src='https://wiki.factorio.com/images/Loader.png' id='loader'>
+</div>
+<div class='item'>
+	<label for='electric-engine-unit'>Electric Engine Unit</label>
+	<input type='checkbox' id='electric-engine-unit'><img class='item' src='https://wiki.factorio.com/images/Electric_engine_unit.png' id='electric-engine-unit'>
+</div>
+<div class='item'>
+	<label for='accumulator'>Accumulator</label>
+	<input type='checkbox' id='accumulator'><img class='item' src='https://wiki.factorio.com/images/Accumulator.png' id='accumulator'>
+</div>
+<div class='item'>
+	<label for='productivity-module-2'>Productivity Module 2</label>
+	<input type='checkbox' id='productivity-module-2'><img class='item' src='https://wiki.factorio.com/images/Productivity_module_2.png' id='productivity-module-2'>
+</div>
+<div class='item'>
+	<label for='stack-inserter'>Stack Inserter</label>
+	<input type='checkbox' id='stack-inserter'><img class='item' src='https://wiki.factorio.com/images/Stack_inserter.png' id='stack-inserter'>
+</div>
+<div class='item'>
+	<label for='exoskeleton-equipment'>Exoskeleton Equipment</label>
+	<input type='checkbox' id='exoskeleton-equipment'><img class='item' src='https://wiki.factorio.com/images/Exoskeleton_equipment.png' id='exoskeleton-equipment'>
+</div>
+<div class='item'>
+	<label for='steel-chest'>Steel Chest</label>
+	<input type='checkbox' id='steel-chest'><img class='item' src='https://wiki.factorio.com/images/Steel_chest.png' id='steel-chest'>
+</div>
+<div class='item'>
+	<label for='distractor-capsule'>Distractor Capsule</label>
+	<input type='checkbox' id='distractor-capsule'><img class='item' src='https://wiki.factorio.com/images/Distractor_capsule.png' id='distractor-capsule'>
+</div>
+<div class='item'>
+	<label for='flying-robot-frame'>Flying Robot Frame</label>
+	<input type='checkbox' id='flying-robot-frame'><img class='item' src='https://wiki.factorio.com/images/Flying_robot_frame.png' id='flying-robot-frame'>
+</div>
+<div class='item'>
+	<label for='small-lamp'>Small Lamp</label>
+	<input type='checkbox' id='small-lamp'><img class='item' src='https://wiki.factorio.com/images/Small_lamp.png' id='small-lamp'>
+</div>
+<div class='item'>
+	<label for='battery-equipment'>Battery Equipment</label>
+	<input type='checkbox' id='battery-equipment'><img class='item' src='https://wiki.factorio.com/images/Battery_equipment.png' id='battery-equipment'>
+</div>
+<div class='item'>
+	<label for='laser-turret'>Laser Turret</label>
+	<input type='checkbox' id='laser-turret'><img class='item' src='https://wiki.factorio.com/images/Laser_turret.png' id='laser-turret'>
+</div>

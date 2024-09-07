@@ -1,0 +1,23 @@
+.selection {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.item {
+    display: block;
+    margin: 2em;
+    background-color: darkgrey;
+    padding: 1em;
+}
+
+.item-img {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+}
