@@ -1,23 +1,58 @@
 .selection {
-    width: 80%;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto auto auto; */
+    /* grid-column-start: auto;     */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    /* grid-template-columns: auto auto auto auto; */
+    /* justify-content: center; */
+    /* align-items: center; */
     /* flex-direction: column; */
-    flex-wrap: wrap;
-    margin: auto;
+    /* flex-wrap: wrap;s */
+    /* margin: auto; */
 
 }
-.item {
-    display: block;
+div .item {
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: center;
+    /* display: grid; */
+    /* grid-template-columns: 10% 10% 10%; */
     margin: 2em;
     background-color: darkgrey;
     padding: 1em;
 }
-
+.item-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
 .item-img {
-    display: flex;
-    box-sizing: border-box;
-    margin: auto;
+    /* display: flex; */
+    /* box-sizing: border-box; */
+    /* margin: auto; */
     padding: 1em;
+}
+.orange {
+    color: #e38728;
+}
+label {
+    cursor: pointer;
+}
+label::before {
+    background-color: darkgrey;
+}
+:checked + label::before {
+    background-color: #e38728;
+}
+input[type=checkbox] {
+    /* display: none; */
+}
+li {
+    list-style: none;
+    
+}
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
 }
