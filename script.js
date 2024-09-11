@@ -1,88 +1,117 @@
 const file = "recipes_link.json";
-ingredients = [
-  "#steel-plate",
-  "#electronic-circuit",
-  "#iron-plate",
-  "#iron-gear-wheel",
-  "#advanced-circuit",
-  "#processing-unit",
-  "#copper-plate",
-  "#pipe",
-  "#copper-cable",
-  "#battery",
-  "#low-density-structure",
-  "#explosives",
-  "#concrete",
-  "#empty-barrel",
-  "#iron-stick",
-  "#engine-unit",
-  "#stone-brick",
-  "#transport-belt",
-  "#plastic-bar",
-  "#radar",
-  "#sulfur",
-  "#lubricant",
-  "#electric-engine-unit",
-  "#steel-chest",
-  "#inserter",
-  "#rocket-control-unit",
-  "#speed-module",
-  "#grenade",
-  "#piercing-rounds-magazine",
-  "#sulfuric-acid",
-  "#flying-robot-frame",
-  "#explosive-cannon-shell",
-  "#iron-ore",
-  "#solar-panel",
-  "#productivity-module",
-  "#wall",
-  "#fast-inserter",
-  "#speed-module-2",
-  "#fast-transport-belt",
-  "#stone-furnace",
-  "#constant-combinator",
-  "#laser-turret",
-  "#uranium-ore",
-  "#roboport",
-  "#repair-pack",
-  "#raw-fish",
-  "#cannon-shell",
-  "#train-stop",
-  "#portable-fusion-reactor",
-  "#underground-belt",
-  "#shotgun-shells",
-  "#red-wire",
-  "#straight-rail",
-  "#green-wire",
-  "#fast-splitter",
-  "#refined-concrete",
-  "#fast-underground-belt",
-  "#petroleum-gas-barrel",
-  "#assembling-machine-2",
-  "#firearm-magazine",
-  "#copper-ore",
-  "#storage-tank",
-  "#rocket-launcher",
-  "#lubricant-barrel",
-  "#solid-fuel",
-  "#used-up-uranium-fuel-cell",
-  "#personal-roboport",
-  "#splitter",
-  "#assembling-machine-1",
-  "#energy-shield",
-  "#electric-furnace",
-  "#rocket",
-  "#defender-capsule",
-  "#express-transport-belt",
-  "#sulfuric-acid-barrel",
-  "#accumulator",
-  "#productivity-module-2",
-  "#stack-inserter",
-  "#exoskeleton",
-  "#distractor-capsule",
-  "#personal-battery",
+const ingredients = [
+  "steel-plate",
+  "electronic-circuit",
+  "iron-gear-wheel",
+  "iron-plate",
+  "advanced-circuit",
+  "copper-plate",
+  "processing-unit",
+  "pipe",
+  "copper-cable",
+  "low-density-structure",
+  "explosives",
+  "water",
+  "engine-unit",
+  "empty-barrel",
+  "concrete",
+  "iron-stick",
+  "coal",
+  "radar",
+  "stone-brick",
+  "battery",
+  "electric-engine-unit",
+  "heavy-oil",
+  "lubricant",
+  "uranium-238",
+  "transport-belt",
+  "steel-chest",
+  "speed-module",
+  "crude-oil",
+  "petroleum-gas",
+  "plastic-bar",
+  "uranium-235",
+  "rocket-control-unit",
+  "wood",
+  "light-oil",
+  "stone",
+  "sulfuric-acid",
+  "flying-robot-frame",
+  "sulfur",
+  "inserter",
+  "grenade",
+  "piercing-rounds-magazine",
+  "rocket-fuel",
+  "iron-ore",
+  "fast-inserter",
+  "laser-turret",
+  "productivity-module",
+  "stone-furnace",
+  "explosive-cannon-shell",
+  "stone-wall",
+  "speed-module-2",
+  "fast-transport-belt",
+  "shotgun-shell",
+  "uranium-ore",
+  "used-up-uranium-fuel-cell",
+  "storage-tank",
+  "assembling-machine-1",
+  "productivity-module-2",
+  "fast-splitter",
+  "copper-ore",
+  "distractor-capsule",
+  "raw-fish",
+  "fusion-reactor",
+  "exoskeleton",
+  "solid-fuel",
+  "assembling-machine-2",
+  "personal-battery",
+  "steam",
+  "effeciency-module-3",
+  "stack-inserter",
+  "water-barrel",
+  "solar-panel",
+  "personal-roboport",
+  "electric-furnace",
+  "light-oil-barrel",
+  "refined-concrete",
+  "cannon-shell",
+  "underground-belt",
+  "petroleum-gas-barrel",
+  "splitter",
+  "firearm-magazine",
+  "heavy-oil-barrel",
+  "crude-oil-barrel",
+  "rocket",
+  "sulfuric-acid-barrel",
+  "rail",
+  "rocket-launcher",
+  "energy-shield",
+  "fast-underground-belt",
+  "lubricant-barrel",
+  "effeciency-module-2",
+  "accumulator",
+  "defender-capsule",
 ];
-const items = document.querySelectorAll("img.item");
+const items = document.querySelectorAll(".item-img");
+const checkboxes = [];
+for (let i = 0; i < ingredients.length; i++) {
+  const checked = ingredients[i] + "-check";
+  checkboxes.push(checked);
+}
+console.log(checkboxes);
+const getIngredients = function (arr) {
+  const list = [];
+  arr.forEach((element) => {
+    console.log(element);
+    const input = document.getElementById(element);
+    if (input.checked) {
+      list.push(input.value);
+    }
+  });
+  return list;
+};
+
 // const deselect = function (e) {
 //   const nodeMap = e.attributes;
 //   const name = nodeMap[3].value;
@@ -90,37 +119,8 @@ const items = document.querySelectorAll("img.item");
 //   selection.pop(name);
 // };
 // const item = document.getElementsByClassName("item");
-const selection = [];
-const select = function (e) {
-  e.style.backgroundColor = "#e38728";
-  const nodeMap = e.attributes;
-  console.log(nodeMap);
-  console.log(nodeMap[3].value);
-  const name = nodeMap[3].value;
-  selection.push(name);
-  e.addEventListener("", function () {
-    deselect(e);
-  });
-  console.log(e);
-};
-const deselect = function (ele) {
-  ele.style.backgroundColor = "darkgrey";
-  const nodeMap = ele.attributes;
-  const name = nodeMap[3].value;
-  const x = selection.indexOf(name);
-  const y = selection.pop(x);
-  return selection;
-};
-// ingredients.forEach((element) => {
-//   const a = document.getElementById(element);
-//   a.addEventListener("click", select(a));
-// });
-for (let i = 0; i < items.length; i++) {
-  const e = items[i];
-  //   const a = document.querySelector(e);
-  console.log(e);
-  //   console.log(a);
-  e.addEventListener("click", function () {
-    select(e);
-  });
-}
+const button = document.getElementById("show");
+button.addEventListener("click", function () {
+  console.log("clicked");
+  const selection = getIngredients(checkboxes);
+});

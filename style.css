@@ -1,3 +1,16 @@
+.main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.results {
+    display: flex;
+    margin: auto;
+    background-color: orange;
+    float: right;
+    width: 100%;
+    height: 100%;
+
+}
 .selection {
     /* display: grid; */
     /* grid-template-columns: auto auto auto auto auto auto; */
@@ -15,44 +28,28 @@
 div .item {
     display: flex;
     margin: auto;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     /* display: grid; */
     /* grid-template-columns: 10% 10% 10%; */
-    margin: 2em;
+    margin: 0.25em;
     background-color: darkgrey;
-    padding: 1em;
+    padding: 0.25em;
 }
 .item-wrapper {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
 }
-.item-img {
-    /* display: flex; */
-    /* box-sizing: border-box; */
-    /* margin: auto; */
-    padding: 1em;
-}
-.orange {
-    color: #e38728;
-}
-label {
-    cursor: pointer;
-}
-label::before {
-    background-color: darkgrey;
-}
-:checked + label::before {
-    background-color: #e38728;
-}
-input[type=checkbox] {
-    /* display: none; */
-}
-li {
-    list-style: none;
+button {
+    display: flex;
+    margin: auto;
     
 }
-ul {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+
+.item-img {
+    display: flex;
+    margin: auto;
+    max-width: 2em;
+    height: auto;
 }

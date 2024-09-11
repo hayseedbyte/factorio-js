@@ -22,20 +22,7 @@
         { "name": "crude-oil", "qty": 100 }
       ]
     },
-    {
-      "name": "ammo-nano-constructors",
-      "ingredients": [
-        { "name": "iron-stick", "qty": 1 },
-        { "name": "repair-pack", "qty": 1 }
-      ]
-    },
-    {
-      "name": "ammo-nano-termites",
-      "ingredients": [
-        { "name": "iron-stick", "qty": 1 },
-        { "name": "electronic-circuit", "qty": 1 }
-      ]
-    },
+
     {
       "name": "arithmetic-combinator",
       "ingredients": [
@@ -129,18 +116,18 @@
       ]
     },
     {
-      "name": "battery-equipment",
+      "name": "personal-battery",
       "ingredients": [
         { "name": "steel-plate", "qty": 10 },
         { "name": "battery", "qty": 5 }
       ]
     },
     {
-      "name": "battery-mk2-equipment",
+      "name": "personal-battery-mk2",
       "ingredients": [
         { "name": "processing-unit", "qty": 15 },
         { "name": "low-density-structure", "qty": 5 },
-        { "name": "battery-equipment", "qty": 10 }
+        { "name": "personal-battery", "qty": 10 }
       ]
     },
     {
@@ -153,7 +140,7 @@
       ]
     },
     {
-      "name": "belt-immunity-equipment",
+      "name": "belt-immunity",
       "ingredients": [
         { "name": "steel-plate", "qty": 10 },
         { "name": "advanced-circuit", "qty": 5 }
@@ -325,7 +312,7 @@
       ]
     },
     {
-      "name": "discharge-defense-equipment",
+      "name": "discharge-defense",
       "ingredients": [
         { "name": "steel-plate", "qty": 20 },
         { "name": "processing-unit", "qty": 5 },
@@ -341,36 +328,6 @@
       "ingredients": [
         { "name": "advanced-circuit", "qty": 3 },
         { "name": "defender-capsule", "qty": 4 }
-      ]
-    },
-    {
-      "name": "effectivity-module",
-      "ingredients": [
-        { "name": "electronic-circuit", "qty": 5 },
-        { "name": "advanced-circuit", "qty": 5 }
-      ]
-    },
-    {
-      "name": "effectivity-module-2",
-      "ingredients": [
-        { "name": "advanced-circuit", "qty": 5 },
-        { "name": "processing-unit", "qty": 5 },
-        { "name": "effectivity-module", "qty": 4 }
-      ]
-    },
-    {
-      "name": "effectivity-module-3",
-      "ingredients": [
-        { "name": "advanced-circuit", "qty": 5 },
-        { "name": "processing-unit", "qty": 5 },
-        { "name": "effectivity-module-2", "qty": 5 }
-      ]
-    },
-    {
-      "name": "electric-energy-interface",
-      "ingredients": [
-        { "name": "iron-plate", "qty": 2 },
-        { "name": "electronic-circuit", "qty": 5 }
       ]
     },
     {
@@ -437,18 +394,18 @@
       "ingredients": [{ "name": "water-barrel", "qty": 1 }]
     },
     {
-      "name": "energy-shield-equipment",
+      "name": "energy-shield",
       "ingredients": [
         { "name": "steel-plate", "qty": 10 },
         { "name": "advanced-circuit", "qty": 5 }
       ]
     },
     {
-      "name": "energy-shield-mk2-equipment",
+      "name": "energy-shield-mk2",
       "ingredients": [
         { "name": "processing-unit", "qty": 5 },
         { "name": "low-density-structure", "qty": 5 },
-        { "name": "energy-shield-equipment", "qty": 10 }
+        { "name": "energy-shield", "qty": 10 }
       ]
     },
     {
@@ -460,42 +417,7 @@
       ]
     },
     {
-      "name": "equipment-bot-chip-feeder",
-      "ingredients": [
-        { "name": "battery", "qty": 1 },
-        { "name": "processing-unit", "qty": 1 }
-      ]
-    },
-    {
-      "name": "equipment-bot-chip-items",
-      "ingredients": [
-        { "name": "battery", "qty": 1 },
-        { "name": "processing-unit", "qty": 1 }
-      ]
-    },
-    {
-      "name": "equipment-bot-chip-launcher",
-      "ingredients": [
-        { "name": "battery", "qty": 1 },
-        { "name": "processing-unit", "qty": 1 }
-      ]
-    },
-    {
-      "name": "equipment-bot-chip-nanointerface",
-      "ingredients": [
-        { "name": "battery", "qty": 1 },
-        { "name": "processing-unit", "qty": 1 }
-      ]
-    },
-    {
-      "name": "equipment-bot-chip-trees",
-      "ingredients": [
-        { "name": "battery", "qty": 1 },
-        { "name": "processing-unit", "qty": 1 }
-      ]
-    },
-    {
-      "name": "exoskeleton-equipment",
+      "name": "exoskeleton",
       "ingredients": [
         { "name": "steel-plate", "qty": 20 },
         { "name": "processing-unit", "qty": 10 },
@@ -533,13 +455,6 @@
       ]
     },
     {
-      "name": "express-loader",
-      "ingredients": [
-        { "name": "express-transport-belt", "qty": 5 },
-        { "name": "fast-loader", "qty": 1 }
-      ]
-    },
-    {
       "name": "express-splitter",
       "ingredients": [
         { "name": "iron-gear-wheel", "qty": 10 },
@@ -570,13 +485,6 @@
         { "name": "iron-plate", "qty": 2 },
         { "name": "electronic-circuit", "qty": 2 },
         { "name": "inserter", "qty": 1 }
-      ]
-    },
-    {
-      "name": "fast-loader",
-      "ingredients": [
-        { "name": "fast-transport-belt", "qty": 5 },
-        { "name": "loader", "qty": 1 }
       ]
     },
     {
@@ -703,7 +611,7 @@
       ]
     },
     {
-      "name": "fusion-reactor-equipment",
+      "name": "fusion-reactor",
       "ingredients": [
         { "name": "processing-unit", "qty": 200 },
         { "name": "low-density-structure", "qty": 50 }
@@ -729,14 +637,6 @@
       "ingredients": [
         { "name": "coal", "qty": 10 },
         { "name": "iron-plate", "qty": 5 }
-      ]
-    },
-    {
-      "name": "gun-nano-emitter",
-      "ingredients": [
-        { "name": "iron-plate", "qty": 10 },
-        { "name": "copper-plate", "qty": 5 },
-        { "name": "electronic-circuit", "qty": 2 }
       ]
     },
     {
@@ -844,16 +744,6 @@
       ]
     },
     {
-      "name": "loader",
-      "ingredients": [
-        { "name": "iron-plate", "qty": 5 },
-        { "name": "iron-gear-wheel", "qty": 5 },
-        { "name": "electronic-circuit", "qty": 5 },
-        { "name": "transport-belt", "qty": 5 },
-        { "name": "inserter", "qty": 5 }
-      ]
-    },
-    {
       "name": "locomotive",
       "ingredients": [
         { "name": "steel-plate", "qty": 30 },
@@ -916,16 +806,6 @@
       ]
     },
     {
-      "name": "logistic-train-stop",
-      "ingredients": [
-        { "name": "train-stop", "qty": 1 },
-        { "name": "small-lamp", "qty": 1 },
-        { "name": "red-wire", "qty": 2 },
-        { "name": "green-wire", "qty": 2 },
-        { "name": "constant-combinator", "qty": 1 }
-      ]
-    },
-    {
       "name": "long-handed-inserter",
       "ingredients": [
         { "name": "iron-plate", "qty": 1 },
@@ -969,7 +849,7 @@
       ]
     },
     {
-      "name": "night-vision-equipment",
+      "name": "night-vision",
       "ingredients": [
         { "name": "steel-plate", "qty": 10 },
         { "name": "advanced-circuit", "qty": 5 }
@@ -1014,7 +894,7 @@
       ]
     },
     {
-      "name": "personal-laser-defense-equipment",
+      "name": "personal-laser-defense",
       "ingredients": [
         { "name": "processing-unit", "qty": 20 },
         { "name": "low-density-structure", "qty": 5 },
@@ -1022,7 +902,7 @@
       ]
     },
     {
-      "name": "personal-roboport-equipment",
+      "name": "personal-roboport",
       "ingredients": [
         { "name": "steel-plate", "qty": 20 },
         { "name": "battery", "qty": 45 },
@@ -1031,11 +911,11 @@
       ]
     },
     {
-      "name": "personal-roboport-mk2-equipment",
+      "name": "personal-roboport-mk2",
       "ingredients": [
         { "name": "processing-unit", "qty": 100 },
         { "name": "low-density-structure", "qty": 20 },
-        { "name": "personal-roboport-equipment", "qty": 5 }
+        { "name": "personal-roboport", "qty": 5 }
       ]
     },
     {
@@ -1099,7 +979,7 @@
         { "name": "electric-engine-unit", "qty": 40 },
         { "name": "low-density-structure", "qty": 30 },
         { "name": "speed-module-2", "qty": 25 },
-        { "name": "effectivity-module-2", "qty": 25 }
+        { "name": "effeciency-module-2", "qty": 25 }
       ]
     },
     {
@@ -1241,14 +1121,6 @@
       ]
     },
     {
-      "name": "roboport-interface",
-      "ingredients": [
-        { "name": "roboport", "qty": 1 },
-        { "name": "constant-combinator", "qty": 1 },
-        { "name": "radar", "qty": 1 }
-      ]
-    },
-    {
       "name": "rocket",
       "ingredients": [
         { "name": "iron-plate", "qty": 2 },
@@ -1339,27 +1211,11 @@
       ]
     },
     {
-      "name": "small-lamp",
-      "ingredients": [
-        { "name": "iron-plate", "qty": 1 },
-        { "name": "copper-cable", "qty": 3 },
-        { "name": "electronic-circuit", "qty": 1 }
-      ]
-    },
-    {
       "name": "solar-panel",
       "ingredients": [
         { "name": "copper-plate", "qty": 5 },
         { "name": "steel-plate", "qty": 5 },
         { "name": "electronic-circuit", "qty": 15 }
-      ]
-    },
-    {
-      "name": "solar-panel-equipment",
-      "ingredients": [
-        { "name": "steel-plate", "qty": 5 },
-        { "name": "advanced-circuit", "qty": 2 },
-        { "name": "solar-panel", "qty": 1 }
       ]
     },
     {
@@ -1403,10 +1259,10 @@
         { "name": "raw-fish", "qty": 1 },
         { "name": "rocket-control-unit", "qty": 16 },
         { "name": "low-density-structure", "qty": 150 },
-        { "name": "effectivity-module-3", "qty": 2 },
+        { "name": "effeciency-module-3", "qty": 2 },
         { "name": "rocket-launcher", "qty": 4 },
-        { "name": "fusion-reactor-equipment", "qty": 2 },
-        { "name": "exoskeleton-equipment", "qty": 4 },
+        { "name": "fusion-reactor", "qty": 2 },
+        { "name": "exoskeleton", "qty": 4 },
         { "name": "radar", "qty": 2 }
       ]
     },
@@ -1524,78 +1380,6 @@
         { "name": "advanced-circuit", "qty": 10 },
         { "name": "engine-unit", "qty": 32 }
       ]
-    },
-    {
-      "name": "textplate-large-concrete",
-      "ingredients": [{ "name": "concrete", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-copper",
-      "ingredients": [{ "name": "copper-plate", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-glass",
-      "ingredients": [{ "name": "stone", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-gold",
-      "ingredients": [{ "name": "sulfur", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-iron",
-      "ingredients": [{ "name": "iron-plate", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-plastic",
-      "ingredients": [{ "name": "plastic-bar", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-steel",
-      "ingredients": [{ "name": "steel-plate", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-stone",
-      "ingredients": [{ "name": "stone-brick", "qty": 4 }]
-    },
-    {
-      "name": "textplate-large-uranium",
-      "ingredients": [{ "name": "uranium-238", "qty": 4 }]
-    },
-    {
-      "name": "textplate-small-concrete",
-      "ingredients": [{ "name": "concrete", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-copper",
-      "ingredients": [{ "name": "copper-plate", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-glass",
-      "ingredients": [{ "name": "stone", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-gold",
-      "ingredients": [{ "name": "sulfur", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-iron",
-      "ingredients": [{ "name": "iron-plate", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-plastic",
-      "ingredients": [{ "name": "plastic-bar", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-steel",
-      "ingredients": [{ "name": "steel-plate", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-stone",
-      "ingredients": [{ "name": "stone-brick", "qty": 1 }]
-    },
-    {
-      "name": "textplate-small-uranium",
-      "ingredients": [{ "name": "uranium-238", "qty": 1 }]
     },
     {
       "name": "train-stop",

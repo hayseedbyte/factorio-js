@@ -1,15 +1,33 @@
 
 import json
-f = open('recipes_link.json')
+f = open('recipes_link2.json')
 data = json.load(f)
 recipes = data["recipes"]
 recipes_a = []
-ingredients = ['uranium-ore', 'effectivity-module-2', 'sulfur', 'pipe', 'explosive-cannon-shell', 'electronic-circuit', 'roboport', 'battery', 'heavy-oil', 'repair-pack', 'raw-fish', 'cannon-shell', 'iron-gear-wheel', 'copper-plate', 'iron-ore', 'grenade', 'train-stop', 'concrete', 'fusion-reactor-equipment', 'underground-belt', 'shotgun-shell', 'red-wire', 'solar-panel', 'productivity-module', 'steam', 'rail', 'low-density-structure', 'green-wire', 'fast-splitter', 'inserter', 'refined-concrete', 'wood', 'stone-brick', 'processing-unit', 'fast-underground-belt', 'empty-barrel', 'copper-cable', 'petroleum-gas-barrel', 'assembling-machine-2', 'piercing-rounds-magazine', 'advanced-circuit', 'firearm-magazine', 'light-oil-barrel', 'copper-ore', 'iron-stick', 'coal', 'storage-tank', 'rocket-launcher', 'lubricant-barrel', 'crude-oil', 'uranium-238', 'solid-fuel', 'transport-belt', 'fast-loader', 'used-up-uranium-fuel-cell', 'sulfuric-acid', 'rocket-control-unit', 'lubricant', 'personal-roboport-equipment', 'stone-wall', 'splitter', 'light-oil', 'assembling-machine-1', 'energy-shield-equipment', 'electric-furnace', 'rocket', 'fast-inserter', 'effectivity-module-3', 'speed-module-2', 'water', 'fast-transport-belt', 'steel-plate', 'uranium-235', 'rocket-fuel', 'engine-unit', 'effectivity-module', 'explosives', 'petroleum-gas', 'water-barrel', 'speed-module', 'defender-capsule', 'iron-plate', 'stone-furnace', 'plastic-bar', 'express-transport-belt', 'crude-oil-barrel', 'radar', 'constant-combinator', 'sulfuric-acid-barrel', 'loader', 'electric-engine-unit', 'stone', 'accumulator', 'productivity-module-2', 'stack-inserter', 'exoskeleton-equipment', 'steel-chest', 'distractor-capsule', 'flying-robot-frame', 'small-lamp', 'battery-equipment', 'laser-turret', 'heavy-oil-barrel']
+ingredients = []
+recipes_list = []
+for recipe in recipes:
+    # recipes_list.append(recipe["name"])
+    print(recipe)
+    for i in recipe["ingredients"]:
+        ingredients.append(i["name"])
+ingredients = set(ingredients)
+# link = "https://wiki.factorio.com/images/"
 
-for i in ingredients:
-    for recipe in recipes:
-        if recipe["name"] == i:
-            recipes_a.append(recipe)
-recipes_json = json.dumps(recipes_a)
-print(recipes_json)
+# for i in ingredients:
+#     o = i.replace('-','_')
+#     o = o.capitalize()
+#     image = link + o + '.png'
+#     print(i)
+#     print(recipes_list.count(i))
+#     if recipes_list.count(i) == 0:
+#         i_dict = dict(name=i,image=image)
+#         print(i_dict)
+#         recipes.append(i_dict)
+# recipes_json = json.dumps(recipes)
+# g = open('recipes_link2.json','w')
+# g.write(recipes_json)
+# g.close()
+f.close()
+print(ingredients)
     
