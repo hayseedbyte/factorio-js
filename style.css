@@ -53,3 +53,8 @@ button {
     max-width: 2em;
     height: auto;
 }
+.show-recipes {
+    margin: 0.25em;
+    /* background-color: darkgrey; */
+    padding: 0.25em;
+}
