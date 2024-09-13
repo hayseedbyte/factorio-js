@@ -1413,53 +1413,53 @@ const recipes = [
       "count": 0
     },
     {
-      "name": "logistic-chest-active-provider",
+      "name": "active-provider-chest",
       "ingredients": [
         { "name": "electronic-circuit", "qty": 3 },
         { "name": "advanced-circuit", "qty": 1 },
         { "name": "steel-chest", "qty": 1 }
       ],
-      "image": "https://wiki.factorio.com/images/Logistic_chest_active_provider.png",
+      "image": "https://wiki.factorio.com/images/Active_provider_chest.png",
       "count": 0
     },
     {
-      "name": "logistic-chest-buffer",
+      "name": "buffer-chest",
       "ingredients": [
         { "name": "electronic-circuit", "qty": 3 },
         { "name": "advanced-circuit", "qty": 1 },
         { "name": "steel-chest", "qty": 1 }
       ],
-      "image": "https://wiki.factorio.com/images/Logistic_chest_buffer.png",
+      "image": "https://wiki.factorio.com/images/Buffer_chest.png",
       "count": 0
     },
     {
-      "name": "logistic-chest-passive-provider",
+      "name": "passive-provider-chest",
       "ingredients": [
         { "name": "electronic-circuit", "qty": 3 },
         { "name": "advanced-circuit", "qty": 1 },
         { "name": "steel-chest", "qty": 1 }
       ],
-      "image": "https://wiki.factorio.com/images/Logistic_chest_passive_provider.png",
+      "image": "https://wiki.factorio.com/images/Passive_provider_chest.png",
       "count": 0
     },
     {
-      "name": "logistic-chest-requester",
+      "name": "requester-chest",
       "ingredients": [
         { "name": "electronic-circuit", "qty": 3 },
         { "name": "advanced-circuit", "qty": 1 },
         { "name": "steel-chest", "qty": 1 }
       ],
-      "image": "https://wiki.factorio.com/images/Logistic_chest_requester.png",
+      "image": "https://wiki.factorio.com/images/Requester_chest.png",
       "count": 0
     },
     {
-      "name": "logistic-chest-storage",
+      "name": "storage-chest",
       "ingredients": [
         { "name": "electronic-circuit", "qty": 3 },
         { "name": "advanced-circuit", "qty": 1 },
         { "name": "steel-chest", "qty": 1 }
       ],
-      "image": "https://wiki.factorio.com/images/Logistic_chest_storage.png",
+      "image": "https://wiki.factorio.com/images/Storage_chest.png",
       "count": 0
     },
     {
@@ -1603,7 +1603,7 @@ const recipes = [
         { "name": "steel-plate", "qty": 2 },
         { "name": "shotgun-shell", "qty": 2 }
       ],
-      "image": "https://wiki.factorio.com/images/Piercing_shotgun_shell.png",
+      "image": "https://wiki.factorio.com/images/Piercing_shotgun_shells.png",
       "count": 0
     },
     {

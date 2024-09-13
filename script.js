@@ -7,7 +7,7 @@ const toTitleCase = function(str) {
     /\w\S*/g,
     text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
   );
-}
+};
 
 const getIngredients = function (arr) {
   const list = [];
@@ -17,9 +17,9 @@ const getIngredients = function (arr) {
       list.push(element.value);
     }
   }
-
   return list;
 };
+
 const getRecipes = function (checked) {
   const output = []
   for (let i = 0; i < recipes.length; i++) {
@@ -32,31 +32,35 @@ const getRecipes = function (checked) {
         }
       }
     }
-    
-
-    
   }
   return output;
+};
+
+
+const undash = function(str){
+  return toTitleCase(str.replaceAll('-', ' '))
 };
 
 const itemCounter = (array, item) => {
   return array.filter((currentItem) => currentItem == item).length;
 };
+
 const injectHTML = function (arr){
   const htmlArray = []
   for (let i = 0; i < arr.length; i++) {
     const element = arr[i];
     const name = element.name
-    const undashed = element.name.replace('-',' ');
-    const title = toTitleCase(undashed);
+    const title = undash(name);
     const image = element.image;
-    const ingredients = element.ingredients
-    // for (let j = 0; j < ingredients.length; j++){
-
-    // }
-    const html = `${title}<br><img alt="${name}" class="item-img" src="${image}"/>`
+    const ingredients = [];
+    for (j = 0; j < element.ingredients.length; j++){
+      ingredients.push(undash(element.ingredients[j].name))
+    }
+    const joinIngredients = ingredients.join('</li><li>')
+    
+    const html = `<div class="item-result">${title}<br><img alt="${name}" class="item-img" src="${image}"/><ul class="result-list"><li>${joinIngredients}</li></ul></div>`
     htmlArray.push(html)
-  
+    
   }
   return htmlArray;
 }
@@ -71,8 +75,6 @@ button.addEventListener("click", function (e) {
     const element = checkboxes[i];
     element.checked = false;
   }
-
- 
   for (let i =0;i<result.length;i++){
     if(itemCounter(result, result[i]) >= list.length)
       final.push(result[i]);
@@ -80,7 +82,6 @@ button.addEventListener("click", function (e) {
   const showRecipes = []
   const finalSet = new Set(final);
   console.log(finalSet)
-  const a = finalSet.values()
   for (const e of finalSet) {
     for (let j = 0; j < recipes.length; j++){
       if (e === recipes[j].name){
@@ -88,14 +89,7 @@ button.addEventListener("click", function (e) {
       }
   
   }
-  // for (let i = 0; i < finalSet.length; i++){
-  //     for (let j = 0; j < recipes.length; j++){
-  //       if (finalSet[i] === recipes[j].name){
-  //         console.log(recipes[j])
-  //         showRecipes.push(recipes[j])
-  //       }
-  //     }
-  // }
+
   console.log(showRecipes)
   const resultsDiv = document.querySelector('.show-recipes');
   const resultsHTML = injectHTML(showRecipes);
